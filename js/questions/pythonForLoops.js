@@ -1,8 +1,9 @@
 //TODO: add pythonForLoop question type to quiz.js
 function pythonForLoopQuestion(randomStream)
 {
+    window.alert("In python for loop constructor");
 
-    /8var number = randomStream.nextIntRange(240)+15;
+    /*var number = randomStream.nextIntRange(240)+15;
    
     var baseArray = [ {base: "decimal", value: number.toString(10), radix: 10}, {base: "hexadecimal", value: number.toString(16), radix: 16}, {base: "binary", value: number.toString(2), radix: 2} ];
 

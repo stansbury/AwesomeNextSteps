@@ -10,6 +10,9 @@ function Quiz(seed,num,type)
         questionFunc = changeOfBaseQuestion;
     else if (type == "orderOfOperations")
         questionFunc = orderOfOperationsQuestion;
+    else if (type == "pythonForLoopss")
+        questionFunc = pythonForLoopsQuestion;
+    
 
     var randomStream = new RandomStream(seed);
 
